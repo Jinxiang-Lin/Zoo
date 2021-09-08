@@ -2,19 +2,20 @@ body {
   background-color: #363d47;
   margin: 0px;
   text-align: center;
-  padding-top: 30px;
+  margin: 0;
 }
 .home-welcome {
+  display: flex;
   font-family: fantasy;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 95%;
-  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+
   background-color: #3f6191;
   font-size: large;
   color: white;
-  border: solid 3px white;
+  justify-content: flex-end;
 }
 
 .animals-container {
@@ -25,12 +26,35 @@ body {
 
 .animals-avatar img {
   margin: 50px 50px 20px 50px;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   border: solid 5px white;
 }
 
 .animals-avatar h3 {
   color: antiquewhite;
+}
+h2 {
+  margin-right: 370px;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+nav li {
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+a {
+  font-size: large;
+  color: white;
+  font-family: fantasy;
+  text-decoration: none;
+}
+
+a:hover {
+  color: greenyellow;
 }
